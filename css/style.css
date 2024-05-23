@@ -1,0 +1,38 @@
+html{
+    overflow-y: scroll;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    position: relative;  
+   
+}
+.navbar{
+    border-bottom: 0.5px solid black;
+    position: fixed; /* or position: sticky; */
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+.navbar-brand {
+    color: black;
+    padding: 10px;
+}
+.cllgname {
+    margin-top: -20px;
+    margin-left: 115px;
+    color: brown;
+}
+.bg-info {/*Footer*/
+    border-top: 0.5px solid black; 
+    margin-bottom: 0px;
+
+}
+.logoimage{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.logoutbtn{
+    margin-right: 20px;
+}
+
